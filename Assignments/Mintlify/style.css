@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --primary-color: #18e299;
+    --secondary-color: rgba(206, 228, 244, 0.058);
+    --text-color: #ffff;
+    --bglowopacity: rgba(206, 228, 244, 0.058);
+    --bggreyopacity: rgba(17 22 26 / 14%)
+}
+
+body {
+    background-color: #fff;
+    color: #ffff;
+    width: 100%;
+    height: 100%;
+}
+
+#main-container {
+    width: 100%;
+    height: 100%;
+}
+
+.top-section {
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/hero-bg-light.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.nav-logo {
+    color: #ffff;
+}
+
+.nav-logo img {
+    width: 104px;
+    height: 24px;
+}
+
+.nav-links {
+    display: flex;
+}
+.nav-links h3 {
+    display: flex;
+    padding: 7px 13px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.nav-links h3:hover {
+    background-color: var(--bglowopacity);
+}
+
+.nav-right-btns .btn {
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+}
+
+.nav-right-btns .btn1 {
+    color: #ffff;
+    margin-right: 10px;
+    background-color: var(--bglowopacity);
+}
+
+/* header ends */
+
+.box-below {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    width: 400px;
+    margin: 12px auto;
+    background-color: var(--bggreyopacity);
+    border-radius: 50px;
+}
+
+.box-below button {
+    padding: 4px 6px;
+    border: none;
+    color: #ffff;
+    background-color: #18e299;
+    border-radius: 50px;
+}
+
+.box-below svg {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.hero-section .heading {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.hero-section .heading h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.hero-section .heading p {
+    font-size: 18px;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.subscriber-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 350px;
+}
+
+.subscriber-btn input{
+    padding: 12px 20px;
+    border: none;
+    width: 100%;
+    border-radius: 50px;
+    background-color: var(--bggreyopacity);
+}
+
+.subscriber-btn input::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.subscriber-btn::after {
+    content: "Start now";
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 16px;
+    /* color: var(--primary-color); */
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+}
+
+/* Docs image styling */
+.docs-section-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 8%;
+    background-size: cover;
+    background-position: center;
+}
+
+.docs-section-image img {
+    border-radius: 16px;
+}
+
+/* .......................  Logo Section .......... */
+.logo-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.logo-section .first-row img {
+    width: 170px;
+    height: 100px;
+    margin: 0px 30px;
+    /* border: 2px solid red; */
+}
+
+.logo-section .second-row img {
+    width: 170px;
+    height: 100px;
+    margin: 0px 30px;
+    /* border: 2px solid red; */
+}
