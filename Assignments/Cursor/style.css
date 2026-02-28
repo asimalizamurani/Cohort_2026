@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --primary-bg: #14120b;
+    --secondary-bg: #1D1B15;
+    --font-color: #EDECEC;
+    --btn-bg: #D7D6D5;
+    --redish-color: #BF4005;
+    --gray-bg: #393632;
+}
+
+html, body {
+    background-color: var(--gray-bg);
+    width: 100vw;
+    height: 100vh;
+    color: var(--redish-color);
+}
