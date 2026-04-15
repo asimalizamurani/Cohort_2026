@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zest Framework Project</title>
+    <script src="js/balochcss.js"></script>
+</head>
+<body>
+
+    <section class="bg-primary text-white p-12 text-center">
+        <h1>Welcome to Baloch css</h1>
+        <p class="text-xl">A complete utility-first library running on Vanilla JS.</p>
+    </section>
+
+    <main class="p-8 grid gap-4" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+        
+        <div class="bg-white p-4 rounded-sm shadow">
+            <img src="assets/photo.jpg" class="rounded-md mb-4" alt="Sample">
+            <h3 class="text-dark font-size-3xl">Responsive Image</h3>
+            <p class="text-gray text-sm">The image automatically fits the container.</p>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg shadow">
+            <video controls class="rounded-md mb-4">
+                <source src="assets/video.mp4" type="video/mp4">
+            </video>
+            <h3 class="text-dark">Native Video</h3>
+            <p class="text-gray text-sm">styled video components with balochcss.</p>
+        </div>
+
+        <div class="bg-dark text-white p-4 rounded-lg shadow flex flex-col justify-center">
+            <h3>Audio Player</h3>
+            <audio controls class="mt-4">
+                <source src="assets/song.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+    </main>
+
+</body>
+</html>
